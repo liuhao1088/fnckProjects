@@ -1,0 +1,23 @@
+{
+  "name": "fnckprojects",
+  "version": "1.0.0",
+  "description": "Mini Program Show",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhao1088/fnckProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhao1088/fnckProjects/issues"
+  },
+  "homepage": "https://github.com/liuhao1088/fnckProjects#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.5.0",
+    "vant-weapp": "^0.5.28"
+  }
+}
