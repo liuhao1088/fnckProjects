@@ -5,12 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    img:["https://img11.360buyimg.com/ddimg/jfs/t1/113162/37/18330/1418258/5f6842b7E62983d02/a7f08831d6893094.jpg"],
     indicatorDots: true,
     autoplay: true,
     interval: 3000,
     duration: 1000
   },
+  fnckdj: function (e) {
+    wx.navigateTo({
+      url: "../fengniaoguoji/fengniaoguoji"
+    })
+  } ,
   brandone: function (e) {
     wx.navigateTo({
       url: "../brandone/brandone"

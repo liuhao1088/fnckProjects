@@ -1,13 +1,9 @@
 <view class="container">
     <view class="tag_maxdiv" style="width:100%;">
         <view class="lbt_div">
-            <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}"
-                duration="{{duration}}" style="height:100%;width:100%;">
-                <swiper-item wx:for="{{img}}" wx:key="img">
-                    <image mode="widthFix" src="{{item}}" class="slide-image" />
-                </swiper-item>
-
-            </swiper>
+            <image mode="widthFix" style="width: 100%;height: 100%;"
+                src="https://img11.360buyimg.com/ddimg/jfs/t1/113162/37/18330/1418258/5f6842b7E62983d02/a7f08831d6893094.jpg">
+            </image>
         </view>
     </view>
 
@@ -46,12 +42,12 @@
 
     <view class="tag_maxdiv" style="width: 100%;margin-top: 20rpx;">
 
-        <view class="red_div"></view>
+        <!-- <view class="red_div"></view> -->
 
         <view class="yxzc_div" bindtap="fnckdj">
 
-            <image style="width: 100%;height: 100%;"
-                src="https://img10.360buyimg.com/ddimg/jfs/t1/148553/21/8494/428803/5f617271E030422e2/5af8874323abe93b.jpg">
+            <image mode="widthFix"  style="width: 100%;height: 100%;"
+                src="https://img12.360buyimg.com/ddimg/jfs/t1/111922/6/18395/333494/5f6854bdE807c9c46/a501acf143ba091e.jpg">
             </image>
 
         </view>
