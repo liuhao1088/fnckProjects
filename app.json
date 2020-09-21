@@ -1,6 +1,11 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/index/index",
+    "pages/brandone/brandone",
+    "pages/brandtwo/brandtwo",
+    "pages/brandthree/brandthree",
+    "pages/brandfour/brandfour",
+    "pages/fengniaoguoji/fengniaoguoji"
   ],
   "window":{
     "backgroundTextStyle":"light",

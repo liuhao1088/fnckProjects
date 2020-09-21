@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="tag_maxdiv" style="width:100%;">
+    <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
+      src="https://img13.360buyimg.com/ddimg/jfs/t1/154077/15/418/3510936/5f684c3aE0dec709e/8dfe11e4f645bea7.jpg">
+    </image>
+  </view>
+ 
+</view>
+
+<view class="nav_div" style="top: {{top}};">
+  <view class="nav_maxdiv">
+    <view class="nav_iocndiv" style="text-align:left;" bindtap="fanhuidj">
+      <view class="iocn">
+        <van-icon name="arrow-left" />
+      </view>
+      <view class="side"></view>
+
+    </view>
+    <view class="nav_iocndiv" style="text-align:right;" bindtap="zhuyefanhuidj">
+      <van-icon name="wap-home-o" />
+    </view>
+  </view>
+</view>

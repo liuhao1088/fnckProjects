@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  background-color: tomato;
+}
+
+.tag_maxdiv {
+  width: 90%;
+  float: left;
+  
+}
+
+.lbt_div{
+  width: 100%;
+  height: 470rpx;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.img_div{
+  width: 100%;
+  border:0rpx white solid;
+  border-radius: 12rpx;
+  margin-top: 20rpx;
+}
+
+/* 底部 */
+.red_div{
+  height: 16rpx;
+  width: 100%;
+  background-color: #cb0026;
+  float: left;
+}
+
+.yxzc_div{
+  width: 100%;
+  height: 100rpx;
+  background-color: #202020;
+  float: left;
+}

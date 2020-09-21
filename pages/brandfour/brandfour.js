@@ -1,43 +1,44 @@
-// pages/wode/wode.js
+// pages/brandtwo/brandtwo.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    img:["https://img11.360buyimg.com/ddimg/jfs/t1/113162/37/18330/1418258/5f6842b7E62983d02/a7f08831d6893094.jpg"],
-    indicatorDots: true,
-    autoplay: true,
-    interval: 3000,
-    duration: 1000
+    top:"4%"
   },
-  brandone: function (e) {
+  fnckdj: function (e) {
     wx.navigateTo({
-      url: "../brandone/brandone"
+      url: "../fengniaoguoji/fengniaoguoji"
     })
   } ,
-  brandtwo: function (e) {
-    wx.navigateTo({
-      url: "../brandtwo/brandtwo"
-    })
-  } ,
-  brandthree: function (e) {
-    wx.navigateTo({
-      url: "../brandthree/brandthree"
-    })
-  } ,
-  brandfour: function (e) {
-    wx.navigateTo({
-      url: "../brandfour/brandfour"
-    })
-  } ,
+  fanhuidj:function(){
+    wx.reLaunch({
+       url: "../index/index"
+     })
+ },
 
+ zhuyefanhuidj:function(){
+  wx.reLaunch({
+     url: "../index/index"
+   })
+},
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-   
+    var windowHeight = wx.getSystemInfoSync().windowHeight;
+    console.log(windowHeight);
+    if(windowHeight>800){
+      this.setData({
+        top: "6%"
+      })
+    }else{
+      this.setData({
+        top: "4%"
+      })
+    }
   },
 
   /**

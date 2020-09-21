@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+  },
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FEE504",
+    "navigationBarTitleText": "蜂鸟国际",
+    "navigationStyle": "custom"
+}

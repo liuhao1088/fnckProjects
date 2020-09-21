@@ -1,7 +1,6 @@
 {
-  "usingComponents": {},
-  "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "贾维斯",
-    "navigationBarTextStyle":"black"
+  "usingComponents": {
+   
+  },
+    "navigationStyle": "custom"
 }
