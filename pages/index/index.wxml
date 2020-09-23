@@ -8,12 +8,15 @@
     </view>
 
 
-    <view class="tag_maxdiv" style="margin-top: 20rpx;">
-        <view class="img_div" bindtap="brandone">
-            <image mode="widthFix" style="width: 100%;height: 100%;border-radius: 12rpx; "
-                src="https://img13.360buyimg.com/ddimg/jfs/t1/121729/15/13098/809699/5f684656E9448d4d9/63d260a708d19aff.png">
-            </image>
-        </view>
+    <view class="tag_maxdiv" style="margin-top: 40rpx;">
+        <view class="video_div">
+      <video style="width: 100%;height: 100%;" id="myVideo"
+        src="https://fnck-20200914-1303154931.cos.ap-guangzhou.myqcloud.com/%E8%A7%86%E9%A2%91/%E8%B4%BE%E7%BB%B4%E6%96%AFS30%281%29.mp4?q-sign-algorithm=sha1&q-ak=AKIDHL7fPrFwXrtdX9SYLq75j5BxTeFbR3KK&q-sign-time=1600822980;33136822980&q-key-time=1600822980;33136822980&q-header-list=&q-url-param-list=&q-signature=cbc026c95fe8050ad95b25ccd0259181f2c16157"
+        binderror="videoErrorCallback" enable-danmu show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls
+        picture-in-picture-mode="{{['push', 'pop']}}" bindenterpictureinpicture='bindVideoEnterPictureInPicture'
+        bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+
+    </view>
     </view>
 
     <view class="tag_maxdiv">
