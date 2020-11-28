@@ -1,2 +1,2 @@
 # fnckProjects
-Mini Program Show
+账号：fnck_lhtwo@163.com
